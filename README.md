@@ -5,6 +5,13 @@ The primary focus is to run **Flux models** efficiently within the Colab free ti
 
 ---
 
+## **Quick Start**
+Click the button below to open the notebook directly in Google Colab:
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sayantan-2/comfyui_colab_Flux/blob/main/comfyui_colab_Flux.ipynb)
+
+---
+
 ## **Key Features**
 - Runs **ComfyUI** seamlessly on Colab's free tier (Tesla T4 GPU).
 - Pre-configured for **Flux models** (recommended [FP8 version](https://comfyanonymous.github.io/ComfyUI_examples/flux/)).
@@ -35,7 +42,7 @@ The primary focus is to run **Flux models** efficiently within the Colab free ti
 ---
 
 ## **Usage**
-1. Open the Colab notebook from this repository.
+1. Click **Open in Colab** button above or open the notebook manually.
 2. Run all cells to install dependencies and launch ComfyUI.
 3. The notebook will start **ComfyUI** on a public URL using **LocalTunnel**.
 4. Load your desired model (FP8, Q5, or Q4) and start generating images.
@@ -49,6 +56,7 @@ The primary focus is to run **Flux models** efficiently within the Colab free ti
 - **Quantized Flux Models:** [https://huggingface.co/city96/FLUX.1-dev-gguf](https://huggingface.co/city96/FLUX.1-dev-gguf)  
 
 ---
+
 
 ## **License**
 This project follows the license of [ComfyUI](https://github.com/comfyanonymous/ComfyUI) and related model repositories.
